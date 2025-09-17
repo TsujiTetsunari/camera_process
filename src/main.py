@@ -18,14 +18,12 @@ def make_cv2_window(file_path_name):
 
 
 def make_grascal_img(file_path_name, output_file_name):
-    # 画像を読み込む
+
     img = cv2.imread(file_path_name)
 
-    # 画像の高さ、幅を取得する
     height = img.shape[0]
     width = img.shape[1]
-
-    # 出力画像を初期化
+    print("height  : {},  width   : {}".format(height, width))
     output = np.zeros((height, width, 1), np.uint8)
 
     # 画像の高さ分ループ
