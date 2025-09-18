@@ -2,6 +2,14 @@ import cv2
 import numpy as np
 
 
+
+def read_img_data(file_path_name):
+    return cv2.imread(file_path_name)
+
+
+
+
+
 def make_cv2_window(file_path_name):
     img = cv2.imread(file_path_name)
 
