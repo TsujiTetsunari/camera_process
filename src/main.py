@@ -16,7 +16,9 @@ def main():
     # make_cv2_window(set_config.file_name_path_1)
     # make_grascal_img(set_config.file_name_path_1, set_config.save_file_name_gr_1)
     # make_normal_img(set_config.file_name_path_1, set_config.save_file_name_no_1)
+
     check_img_data(set_config.file_name_path_1, set_config.save_file_name_1)
+
     return
 
 
